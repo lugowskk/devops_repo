@@ -42,5 +42,14 @@ public class CalculatorTest {
         int result = instance.add(a, b);
         assertEquals(expResult, result);
     }
+@org.junit.Test
+    public void testMultiple_zero() {
+        int a = 0;
+        int b = 0;
+        Calculator instance = new Calculator();
+        int expResult = 0;
+        int result = instance.multiple(a, b);
+        assertEquals(expResult, result);
+    }
 
 }

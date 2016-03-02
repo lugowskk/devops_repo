@@ -52,4 +52,15 @@ public class CalculatorTest {
         assertEquals(expResult, result);
     }
 
+    @org.junit.Test
+    public void testMultiple_nonzero() {
+        int a = 10;
+        int b = 2;
+        Calculator instance = new Calculator();
+        int expResult = 20;
+        int result = instance.multiple(a, b);
+        assertEquals(expResult, result);
+    }
+
+
 }

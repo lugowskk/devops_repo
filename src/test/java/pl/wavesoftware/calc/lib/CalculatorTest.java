@@ -62,5 +62,14 @@ public class CalculatorTest {
         assertEquals(expResult, result);
     }
 
+    @org.junit.Test
+    public void testMinus_nonzero() {
+        int a = 78;
+        int b = 2;
+        Calculator instance = new Calculator();
+        int expResult = 80;
+        int result = instance.minus(a, b);
+        assertEquals(expResult, result);
+    }
 
 }

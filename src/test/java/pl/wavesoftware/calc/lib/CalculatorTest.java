@@ -67,7 +67,7 @@ public class CalculatorTest {
         int a = 78;
         int b = 2;
         Calculator instance = new Calculator();
-        int expResult = 80;
+        int expResult = 76;
         int result = instance.minus(a, b);
         assertEquals(expResult, result);
     }
